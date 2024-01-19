@@ -1,0 +1,86 @@
+.buttonStyle{
+    background-color: black;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 200px;
+    /* size: 0px; */
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+  
+   
+  }
+  .rpsmoves{
+  margin-left: 50px;
+  }
+  .heading{
+      font-family: fantasy;
+      align-content: center;
+      margin-left: 150px;
+  }
+  .buttonBackStyle{
+      background-color: black;
+      border: 0px;
+      cursor: pointer;
+      
+     
+    }
+    .status{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      padding-left: 250px;
+    }
+    .moves{
+      align-items: center;
+      margin-left: 120px;
+      size: 300px;
+      width: 400px;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      padding-left: 40px;
+      padding-top: 20px;
+      border: 5px solid rgb(255, 166, 0);
+    }
+  .selected{
+      height: 50px;
+      margin: 20px;
+  }
+  .score{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 80px;
+    padding-top: 20px;
+    
+  }
+  .reset{
+    background-color: rgb(246, 176, 14);
+    size: 50px;
+    font-size:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 270px;
+  }
+  .complete{
+    padding-left: 200px;
+    margin-left: 200px;
+  }
+  body{
+      /* margin-left: ; */
+      /* align-content: end; */
+      margin-left: 25vw;
+      background-color: black;
+      color: white;
+  
+  }
+  .a{
+    margin-left: 30vw;
+    size: 20px;
+    height: 50px;
+    width: 50px;
+  }
+  .auto-play{
+    background-color: rgb(246, 176, 14);
+    size: 50px;
+    font-size:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+  }

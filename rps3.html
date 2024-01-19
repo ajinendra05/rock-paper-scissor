@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel = "stylesheet", href="./rps3.css"/>
+    <style>
+    #foo {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+      }
+      </style>
+</head>
+<body>
+   <h1 class="heading">Click on any button to play</h1>
+   <p class="rpsmoves"><button  class="r"><img src="./rock-emoji.png" class="buttonStyle"></button>
+    <button  class="p"><img src="./paper-emoji.png" class="buttonStyle"></button>
+    <button  class="s"><img src="./scissors-emoji.png" class="buttonStyle"></button></p>
+   
+   
+  
+    <h1 class="status">Status</h1>
+    <!-- <br> -->
+    <p class="moves">
+     You
+    <img src="./paper-emoji.png" class="selected" id="umove"></img>
+    <img src="./paper-emoji.png" class="selected" id="cmove"></img>
+    Computer
+    </p>
+    <p class="score" > Score : Win[0], Loss[0], Tie[0] : </p>
+    <button class="reset">Reset</button>
+    <button class="auto-play">auto-play</button>
+    <img src="A.png" class="a" id="foo"></img>
+  
+    <script src = "rps3.js"> 
+        
+    </script>
+</body>
+</html>
